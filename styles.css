@@ -1,0 +1,21 @@
+:root {
+    --darkGrey: #2E2E2E;
+}
+
+* { margin: 0; box-sizing: border-box; }
+html, body {
+    background-color: var(--darkGrey);
+}
+
+@font-face {
+    font-family: TimeMachine;
+    src: url("assets/fonts/timemachine-wa.ttf");
+}
+
+@font-face {
+    font-family: Zen;
+    src: url("assets/fonts/ZenMaruGothic-Regular.ttf");
+}
+
+h2 { font-family: Zen; }
+h3 { font-family: TimeMachine; }
