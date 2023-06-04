@@ -18,4 +18,35 @@ html, body {
 }
 
 h2 { font-family: Zen; }
-h3 { font-family: TimeMachine; }
+h3 { font-family: TimeMachine; color: white; font-size: 22px; }
+a {
+    width: 220px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: TimeMachine;
+    font-size: 20px;
+    color: white;
+    background-color: var(--darkGrey);
+    transition: background-color 0.2s;
+}
+a:hover { background-color: white; }
+a h3 { font-size: 18px; }
+a:hover h3 { color: var(--darkGrey); }
+a:hover svg * { stroke: var(--darkGrey); }
+
+#main-row {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1150px) {
+    #main-row { flex-direction: column; align-items: center; }
+}

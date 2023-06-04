@@ -7,22 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
-        <div style="width: 100%; height: 100%; position: relative;" >
-            <div
-                style="background-image: url('assets/images/bg.svg'); background-size: cover; width: 100vw; height: 100vh; top: 0; left: 0; background-position: 40% 50%;"
-            />
-            <div style="display: flex; flex-direction: column; align-items: start; justify-content: center; padding: 40px; height: 100%; z-index: 2; position: absolute; left: 0; top: 0;">
-                <img src="assets/images/display.svg" style="height: 80vh; max-width: calc(100vw - 80px);" />
-                <h2 style="color: white; margin-top: 20px;">Simple, free, and fun task & habit management</h2>
-            </div>
-            
-            <div style="position: absolute; right: 0; top: 50%;">
-                <h3>DOWNLOAD NOW FOR DESKTOP</h3>
+        <div style="width: 100vw; min-height: 100vh; background-image: url('assets/images/bg.svg'); background-size: cover; background-position: 40% 50%;" >
+            <div id="main-row" >
+                <div style="display: flex; flex-direction: column; align-items: start; justify-content: center; height: 100%;">
+                    <img src="assets/images/display.svg" style="width: 100%; max-width: 800px;" />
+                    <h2 style="color: white; margin-top: 20px;">Simple, free, and fun task & habit management</h2>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; justify-content: flex-end; height: 100%; gap: 10px; padding: 20px;">
+                    <h3 style="padding: 20px 0; text-align: center;">DOWNLOAD NOW</h3>
+                    <a style="display: flex; flex-direction: row; justify-content: space-between;" href="downloads/Nichinichi-Installer.dmg" download >
+                        <h3>MAC</h3>
+                        <svg width="16" viewBox="0 0 30 28" fill="none">
+                            <path d="M1 17.3333V26.6667H29V17.3333M15 1V17.3333M15 17.3333L8 10.3333M15 17.3333L22 10.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
-        
-        
-        
     </body>
 </html>
